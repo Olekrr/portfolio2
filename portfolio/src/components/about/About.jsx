@@ -1,15 +1,15 @@
-import React from 'react';
-import aboutImage from '../../assets/pointism.png';
-import htmlIcon from '../../assets/html.png';
-import cssIcon from '../../assets/css.png';
-import jsIcon from '../../assets/javascript.png';
-import figmaIcon from '../../assets/figma.png';
-import postgresqlIcon from '../../assets/postgresql.png';
-import luaIcon from '../../assets/lua.png';
-import phpIcon from '../../assets/php.png';
-import reactIcon from '../../assets/react.png';
-import sassIcon from '../../assets/sass.png';
-import bootstrapIcon from "../../assets/bootstrap.png"
+import React from "react";
+import aboutImage from "../../assets/pointism.png";
+import htmlIcon from "../../assets/html.png";
+import cssIcon from "../../assets/css.png";
+import jsIcon from "../../assets/javascript.png";
+import figmaIcon from "../../assets/figma.png";
+import postgresqlIcon from "../../assets/postgresql.png";
+import luaIcon from "../../assets/lua.png";
+import phpIcon from "../../assets/php.png";
+import reactIcon from "../../assets/react.png";
+import sassIcon from "../../assets/sass.png";
+import bootstrapIcon from "../../assets/bootstrap.png";
 
 const AboutMe = () => {
   return (
@@ -17,7 +17,9 @@ const AboutMe = () => {
       <h2>About Me</h2>
       <img className="about-image" src={aboutImage} alt="About me" />
       <p>
-        Hello! I'm a passionate web developer with a love for creating functional, easy-to-use websites. I'm always eager to take on new challenges and learn new technologies.
+        Hello! I'm a passionate web developer with a love for creating
+        functional, easy-to-use websites. I'm always eager to take on new
+        challenges and learn new technologies.
       </p>
       <div className="technologies-section">
         <div className="technology">
@@ -38,7 +40,11 @@ const AboutMe = () => {
         </div>
         <div className="technology">
           <p>PostGreSQL</p>
-          <img src={postgresqlIcon} alt="PostGreSQL" className="technology-icon" />
+          <img
+            src={postgresqlIcon}
+            alt="PostGreSQL"
+            className="technology-icon"
+          />
         </div>
         <div className="technology">
           <p>Lua</p>

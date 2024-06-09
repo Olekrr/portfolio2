@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutMe from './components/about/About';
 import ProjectsCarousel from './components/projects/ProjectsCarousel';
+import Contact from './components/contact/Contact';
 import './App.css';
 import './styles/styles.scss';
 
@@ -12,6 +13,7 @@ function App() {
         <AboutMe />
         <ProjectsCarousel />
       </main>
+      <Contact />
     </div>
   );
 }
