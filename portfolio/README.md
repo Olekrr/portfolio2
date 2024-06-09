@@ -1,6 +1,6 @@
 # Portfolio
 
-![logo](assets/readmepicture.png)
+![logo](src/assets/readmepicture.png)
 
 Welcome to my (very temporary) portfolio!
 
