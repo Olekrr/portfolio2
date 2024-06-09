@@ -1,0 +1,37 @@
+@font-face {
+  font-family: robotoslab;
+  src: url(./assets/RobotoSlab-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(./assets/Roboto-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background: linear-gradient(to bottom, #232427, #3c4451, #686d76);
+  background-attachment: fixed;
+  color: white;
+  font-family: roboto, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h3 {
+  font-family: robotoslab;
+  margin: 10px 0;
+}
+
+p {
+  font-family: roboto;
+}
