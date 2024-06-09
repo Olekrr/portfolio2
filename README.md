@@ -1,7 +1,5 @@
 # Portfolio
 
-![logo](src/assets/readmepicture.png)
-
 Welcome to my (very temporary) portfolio!
 
 ## Description
